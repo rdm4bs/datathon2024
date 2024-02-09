@@ -10,7 +10,7 @@ virtualenv datathonenv
 Install necessary dependencies
 
 ```
-pip install geopandas shapely folium jupyter
+pip install geopandas shapely folium jupyter matplotlib mapclassify
 ```
 
 Run a local JupyterLab where the content of your current working directory will automatically be loaded
