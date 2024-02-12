@@ -1,6 +1,6 @@
 # Run Jupyter Notebook
 
-Create new Python virtual environment and activate it
+Create a new virtual environment for Python 3 and activate it
 
 <table>
 <tr>
@@ -10,7 +10,7 @@ Create new Python virtual environment and activate it
 <td>
 
 ```bash
-virtualenv datathonenv
+python3 -m venv datathonenv
 . datathonenv/activate
 ```
 
@@ -18,14 +18,12 @@ virtualenv datathonenv
 <td>
     
 ```bash
-virtualenv datathonenv
+python3 -m venv datathonenv
 .\datathonenv\Scripts\activate
 ```
 </td>
 </tr>
 </table>
-
-With Python3, `virtualenv` is not nececssary: `python3 -m venv datathonenv` also creates the virtual environment. 
 
 Install necessary dependencies
 
