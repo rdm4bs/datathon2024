@@ -2,15 +2,33 @@
 
 Create new Python virtual environment and activate it
 
-```
+<table>
+<tr>
+<td> Linux </td> <td> Windows </td>
+</tr>
+<tr>
+<td>
+
+```bash
 virtualenv datathonenv
 . datathonenv/activate
 ```
 
+</td>
+<td>
+    
+```bash
+virtualenv datathonenv
+.\datathonenv\Scripts\activate
+```
+</td>
+</tr>
+</table>                     
+
 Install necessary dependencies
 
 ```
-pip install geopandas shapely folium jupyter matplotlib mapclassify
+pip install geopandas shapely folium jupyter matplotlib mapclassify requests
 ```
 
 Run a local JupyterLab where the content of your current working directory will automatically be loaded
@@ -18,3 +36,7 @@ Run a local JupyterLab where the content of your current working directory will 
 ```
 jupyter-lab
 ```
+
+## Credit
+
+Many thanks to [Michael Roth](https://github.com/MichaelRothDLR) for his inspirations on using Jupyter Notebooks with GeoPandas and Folium.
