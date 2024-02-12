@@ -64,5 +64,8 @@ An alternative to installing several programs and packages, you can download a c
 
 Yet another option is to run OSGeoLive in a virtual machine (VirtualBox, https://www.virtualbox.org/) on your laptop: https://live.osgeo.org/en/quickstart/virtualization_quickstart.html
 
+### Upload results
+
+[DESY Sync & Share](https://syncandshare.desy.de/index.php/s/9PQ2N6BHkdEtZdr)
 
 
