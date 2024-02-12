@@ -30,6 +30,7 @@ _Brought to you by [RDM4Braunschweig](https://rdm4bs.tu-braunschweig.de/) in [Lo
 
 ## Material
 
+- [☝️🤓 Introduction to Geographic Information Systems (GIS)](/intro_gis.md)
 - [🚂 🍂 Geostory & ressources for introduction](/intro_geostory.md)
 - [🌐 Geodata sources](/geodata_sources.md)
 
