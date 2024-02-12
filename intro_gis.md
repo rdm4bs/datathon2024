@@ -7,7 +7,7 @@ You are going to experience effects like "map elements not being displayed" or "
 For simplicity, our planet's shape is often approximated by an ellipsoid.
 
 <p align="center">
-    <img alt="Geodetic coordinates on ellipsoid" src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Latitude_and_longitude_graticule_on_an_ellipsoid.svg" width="60%" style="background-color:white">
+    <img alt="Geodetic coordinates on ellipsoid" src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Latitude_and_longitude_graticule_on_an_ellipsoid.svg" width="60%" style="background-color:white;">
     <br>
     <em>Geodetic coordinates on ellipsoid.<br>From <a href="https://commons.wikimedia.org/wiki/File:Latitude_and_longitude_graticule_on_an_ellipsoid.svg">Wikimedia Commons</a>, public domain.</em>
 </p>
@@ -22,13 +22,13 @@ The most commonly used [spatial reference system](https://2012books.lardbucket.o
 ### Projecting that ball on a flat plane
 
 <p align="center">
-    <img alt="Map projection families" src="https://docs.qgis.org/3.28/en/_images/projection_families.png" width="80%" style="background-color:white">
+    <img alt="Map projection families" src="https://docs.qgis.org/3.28/en/_images/projection_families.png" width="80%" style="background-color:white;">
     <br>
     <em>a) cylindrical projections, b) conical projections, c) planar projections.<br>From <a href="https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/coordinate_reference_systems.html">QGIS Documentation</a>, GNU Free Documentation License.</em>
 </p>
 
 <p align="center">
-    <img alt="Mercator projection" src="https://docs.qgis.org/3.28/en/_images/mercator_projection.png" width="80%" style="background-color:white">
+    <img alt="Mercator projection" src="https://docs.qgis.org/3.28/en/_images/mercator_projection.png" width="80%" style="background-color:white;">
     <br>
     <em>One example: The cylindrical Mercator projection.<br>From <a href="https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/coordinate_reference_systems.html">QGIS Documentation</a>, GNU Free Documentation License.</em>
 </p>
@@ -44,7 +44,7 @@ You will encounter different projected coordinate systems when mapping spatial d
 ## Vector and raster data models
 
 <p align="center">
-    <img alt="Vector data model" src="https://2012books.lardbucket.org/books/geographic-information-system-basics/section_08/5e0adb92da29fb258470bfeb5265cc55.jpg" width="65%" style="background-color:white">
+    <img alt="Vector data model" src="https://2012books.lardbucket.org/books/geographic-information-system-basics/section_08/5e0adb92da29fb258470bfeb5265cc55.jpg" width="65%">
     <br>
     <em>Points, Lines, and Polygons.<br>From <a href="https://2012books.lardbucket.org/books/geographic-information-system-basics/s08-02-vector-data-models.html">Geographic Information System Basics</a>, <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>.</em>
 </p>
@@ -59,7 +59,7 @@ You will encounter different projected coordinate systems when mapping spatial d
 ### Difference to raster data
 
 <p align="center">
-    <img alt="Vector vs. raster" src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Raster_vector_tikz.svg" width="65%" style="background-color:white">
+    <img alt="Vector vs. raster" src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Raster_vector_tikz.svg" width="65%" style="background-color:white;">
     <br>
     <em>Difference between vector and raster model when trying to describe "the same things".<br>From <a href="https://commons.wikimedia.org/wiki/File:Raster_vector_tikz.svg">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-NC-SA 3.0 Deed</a>.</em>
 </p>
@@ -94,7 +94,7 @@ Spatial analysis consists of queries which return information about [relationshi
 Performing [spatial overlays](https://en.wikipedia.org/wiki/Vector_overlay) helps identifying relationships between features.
 
 <p align="center">
-    <img alt="Vector Overlay Methods " src="https://2012books.lardbucket.org/books/geographic-information-system-basics/section_11/a33268f6ff028c24152080d0aa3f2aad.jpg" width="75%" style="background-color:white">
+    <img alt="Vector Overlay Methods " src="https://2012books.lardbucket.org/books/geographic-information-system-basics/section_11/a33268f6ff028c24152080d0aa3f2aad.jpg" width="75%">
     <br>
     <em>Vector Overlay Methods.<br>From <a href="https://2012books.lardbucket.org/books/geographic-information-system-basics/s11-geospatial-analysis-i-vector-o.html">Geographic Information System Basics</a>, <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>.</em>
 </p>
@@ -104,7 +104,7 @@ Performing [spatial overlays](https://en.wikipedia.org/wiki/Vector_overlay) help
 [Buffers](https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_spatial_analysis_buffers.html) are useful, powerful and beautiful 💓.
 
 <p align="center">
-    <img alt="Buffering" src="https://2012books.lardbucket.org/books/geographic-information-system-basics/section_11/a8bd893771b4d7034dfa8bd8b171aff4.jpg" width="50%" style="background-color:white">
+    <img alt="Buffering" src="https://2012books.lardbucket.org/books/geographic-information-system-basics/section_11/a8bd893771b4d7034dfa8bd8b171aff4.jpg" width="50%">
     <br>
     <em>Buffer options around red fatures: (a) variable width buffers, (b) multiple ring buffers, (c) doughnut buffer, (d) setback buffer, (e) nondissolved buffer, (f) dissolved buffer.<br>From <a href="https://2012books.lardbucket.org/books/geographic-information-system-basics/s11-geospatial-analysis-i-vector-o.html">Geographic Information System Basics</a>, <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>.</em>
 </p>
