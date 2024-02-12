@@ -23,7 +23,9 @@ virtualenv datathonenv
 ```
 </td>
 </tr>
-</table>                     
+</table>
+
+With Python3, `virtualenv` is not nececssary: `python3 -m venv datathonenv` also creates the virtual environment. 
 
 Install necessary dependencies
 
