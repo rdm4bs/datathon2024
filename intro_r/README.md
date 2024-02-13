@@ -1,6 +1,6 @@
 # Intro R
 
-## Ressources
+## Resources
 
 + [Tutorial: Using WFS services in R](https://inbo.github.io/tutorials/tutorials/spatial_wfs_services/)
 + [Simple WGS reference (GeoServer)](https://docs.geoserver.org/stable/en/user/services/wfs/reference.html)
