@@ -67,7 +67,7 @@ An alternative to installing several programs and packages, you can download the
 
 Yet another option is to [run OSGeoLive in a virtual machine](https://live.osgeo.org/en/quickstart/virtualization_quickstart.html) using [VirtualBox](https://www.virtualbox.org/) on your laptop.
 
-### Upload results
+### Share intermediate data, upload results
 
 [DESY Sync & Share](https://syncandshare.desy.de/index.php/s/9PQ2N6BHkdEtZdr)
 
