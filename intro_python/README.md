@@ -1,6 +1,6 @@
 # Run Jupyter Notebook
 
-Create new Python virtual environment and activate it
+Create a new virtual environment for Python 3 and activate it
 
 <table>
 <tr>
@@ -10,7 +10,7 @@ Create new Python virtual environment and activate it
 <td>
 
 ```bash
-virtualenv datathonenv
+python3 -m venv datathonenv
 . datathonenv/activate
 ```
 
@@ -18,14 +18,12 @@ virtualenv datathonenv
 <td>
     
 ```bash
-virtualenv datathonenv
+python3 -m venv datathonenv
 .\datathonenv\Scripts\activate
 ```
 </td>
 </tr>
 </table>
-
-With Python3, `virtualenv` is not nececssary: `python3 -m venv datathonenv` also creates the virtual environment. 
 
 Install necessary dependencies
 
@@ -38,6 +36,12 @@ Run a local JupyterLab where the content of your current working directory will 
 ```
 jupyter-lab
 ```
+
+## Supplementary tutorials
+
+- Jupyter Notebook examples for [spatial data processing](https://github.com/jupyter/jupyter/wiki#earth-science-and-geo-spatial-data)
+- Python for Geographic Data Analysis: [Retrieving data from Web Feature Service (WFS)](https://python-gis-book.readthedocs.io/en/latest/part2/chapter-09/nb/01-retrieving-data-from-wfs.html)
+
 
 ## Credit
 

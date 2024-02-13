@@ -1,4 +1,4 @@
-#  🚂 🍂 Geostory for the introduction
+# 🚂 🍂 Geostory for the introduction
 
 > Every autumn rail networks across the world suffer delays, accidents and
 > schedule changes due to low friction problems caused by leaves landing on the
