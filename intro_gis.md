@@ -21,6 +21,10 @@ The most commonly used [spatial reference system](https://2012books.lardbucket.o
 
 ### Projecting that ball on a flat plane
 
+Are you viewing geodata on your screen? Then it is already projected into 2D 😎! For that, conventional Cartesian coordinates are used, also allowing measurements in real *metres*, yay:
+- `x` as "easting"
+- `y` as "northing"
+
 <p align="center">
     <img alt="Map projection families" src="https://docs.qgis.org/3.28/en/_images/projection_families.png" width="80%" style="background-color:white;">
     <br>
@@ -32,10 +36,6 @@ The most commonly used [spatial reference system](https://2012books.lardbucket.o
     <br>
     <em>One example: The cylindrical Mercator projection.<br>From <a href="https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/coordinate_reference_systems.html">QGIS Documentation</a>, GNU Free Documentation License.</em>
 </p>
-
-Are you viewing geodata on your screen? Then it is already projected into 2D 😎! For that, conventional Cartesian coordinates are used, also allowing measurements in real *metres*, yay:
-- `x` as "easting"
-- `y` as "northing"
 
 You will encounter different projected coordinate systems when mapping spatial data around Germany:
 - [ETRS89 / UTM zone 32N](https://epsg.io/25832) (EPSG:25832) which is recommended to be used for governmental data.
