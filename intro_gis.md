@@ -7,14 +7,14 @@ You are going to experience effects like "map elements not being displayed" or "
 For simplicity, our planet's shape is often approximated by an ellipsoid.
 
 <p align="center">
-    <img alt="Geodetic coordinates on ellipsoid" src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Latitude_and_longitude_graticule_on_an_ellipsoid.svg" width="60%" style="background-color:white;">
+    <img alt="Geodetic coordinates on ellipsoid" src="assets/intro_gis/Latitude_and_longitude_graticule_on_an_ellipsoid.svg.png" width="60%">
     <br>
-    <em>Geodetic coordinates on ellipsoid.<br>From <a href="https://commons.wikimedia.org/wiki/File:Latitude_and_longitude_graticule_on_an_ellipsoid.svg">Wikimedia Commons</a>, public domain.</em>
+    <em>Geodetic coordinates on ellipsoid.<br>By Peter Mercator, via <a href="https://commons.wikimedia.org/wiki/File:Latitude_and_longitude_graticule_on_an_ellipsoid.svg">Wikimedia Commons</a>, public domain.</em>
 </p>
 
 If positions on such an ellipsoid are to be described, geodetic coordinates in *degrees* are used:
-- `longitude` *λ* for east to west
-- `latitude` *ϕ* for north to south
+- `longitude` *λ* for "east to west"
+- `latitude` *ϕ* for "north to south"
 
 The most commonly used [spatial reference system](https://2012books.lardbucket.org/books/geographic-information-system-basics/s06-02-map-scale-coordinate-systems-a.html) in GIS using this convention is:
 - [WGS 84](https://epsg.io/4326) (EPSG:4326). It is primarily used for worldwide GNSS applications and measurements. Beware of inconsistencies in the axis order when programming with different libraries: Some expect `long`/`lat` whereas others prefer to have `lat`/`long` for specification of point coordinates 😵!
@@ -26,13 +26,13 @@ Are you viewing geodata on your screen? Then it is already projected into 2D �
 - `y` as "northing"
 
 <p align="center">
-    <img alt="Map projection families" src="https://docs.qgis.org/3.28/en/_images/projection_families.png" width="80%" style="background-color:white;">
+    <img alt="Map projection families" src="assets/intro_gis/projection_families.png" width="80%">
     <br>
     <em>a) cylindrical projections, b) conical projections, c) planar projections.<br>From <a href="https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/coordinate_reference_systems.html">QGIS Documentation</a>, GNU Free Documentation License.</em>
 </p>
 
 <p align="center">
-    <img alt="Mercator projection" src="https://docs.qgis.org/3.28/en/_images/mercator_projection.png" width="80%" style="background-color:white;">
+    <img alt="Mercator projection" src="https://docs.qgis.org/3.28/en/_images/mercator_projection.png" width="80%">
     <br>
     <em>One example: The cylindrical Mercator projection.<br>From <a href="https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/coordinate_reference_systems.html">QGIS Documentation</a>, GNU Free Documentation License.</em>
 </p>
@@ -59,9 +59,9 @@ You will encounter different projected coordinate systems when mapping spatial d
 ### Difference to raster data
 
 <p align="center">
-    <img alt="Vector vs. raster" src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Raster_vector_tikz.svg" width="65%" style="background-color:white;">
+    <img alt="Vector vs. raster" src="assets/intro_gis/Raster_vector_tikz.svg.png" width="65%">
     <br>
-    <em>Difference between vector and raster model when trying to describe "the same things".<br>From <a href="https://commons.wikimedia.org/wiki/File:Raster_vector_tikz.svg">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-NC-SA 3.0 Deed</a>.</em>
+    <em>Difference between vector and raster model when trying to describe "the same things".<br>By Johannes Rössel, via <a href="https://commons.wikimedia.org/wiki/File:Raster_vector_tikz.svg">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-NC-SA 3.0</a>.</em>
 </p>
 
 [Rasters](https://2012books.lardbucket.org/books/geographic-information-system-basics/s08-01-raster-data-models.html) are mostly consisting of a uniform grid of square cells with a specific *resolution* and cell *value*.
