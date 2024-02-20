@@ -1,9 +1,19 @@
-# Intro R
+# Using R in a Jupyter Notebook
+
+Install [R-kernel for JupyterLab](https://irkernel.github.io/installation/).
+
+**Dependencies**
+
++ [sf](https://cran.r-project.org/web/packages/sf/index.html)
++ [stars](https://cran.r-project.org/web/packages/stars/index.html)
++ [terra](https://cran.r-project.org/web/packages/terra/index.html)
++ [ows4r](https://cran.r-project.org/web/packages/ows4R/index.html)
++ [tmap](https://cran.r-project.org/web/packages/tmap/index.html)
 
 ## Resources
 
 + [Tutorial: Using WFS services in R](https://inbo.github.io/tutorials/tutorials/spatial_wfs_services/)
-+ [Simple WGS reference (GeoServer)](https://docs.geoserver.org/stable/en/user/services/wfs/reference.html)
++ [Simple WFS reference (GeoServer)](https://docs.geoserver.org/stable/en/user/services/wfs/reference.html)
 + [Book: Geocomputation with R](https://r.geocompx.org/)
 + [ows4R reference](https://eblondel.github.io/ows4R/index.html)
 + [sf reference](https://r-spatial.github.io/sf/index.html)
@@ -23,9 +33,4 @@
 
 `jupyter server --generate-config`  
 In `~/.jupyter/jupyter_server_config.py` set
-    c.ZMQChannelsWebsocketConnection.iopub_data_rate_limit = 10000000
-
----------
-
-
-  
+    c.ZMQChannelsWebsocketConnection.iopub_data_rate_limit = 10000000  

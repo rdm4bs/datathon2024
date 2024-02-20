@@ -38,32 +38,17 @@ _Brought to you by [RDM4Braunschweig](https://rdm4bs.tu-braunschweig.de/) in [Lo
 
 [Idea - Pad](https://cryptpad.digitalcourage.de/code/#/2/code/edit/vRudLflAmhI8vWrHdeDMENWj/)
 
-## Technical Preparations
+## Technical preparations
 
-### Basis
+If you plan to use QGIS, jump to [`intro_qgis/`](/intro_qgis/README.md).
 
-+ [QGIS installation](https://qgis.org/de/site/forusers/download.html)
-+ [JupyterLab installation](https://jupyter.org/install)
-+ [R-kernel for JupyterLab](https://irkernel.github.io/installation/)
+If you plan to use R, jump to [`intro_r/`](/intro_r/README.md).
 
-### Python packages and R libraries
+If you plan to use Python, jump to [`intro_python/`](/intro_python/README.md).
 
-**For Python:**  
-+ [geopandas](https://geopandas.org/en/stable/getting_started.html)
-+ [shapely](https://shapely.readthedocs.io/en/stable/installation.html)
-+ [rasterio](https://rasterio.readthedocs.io/en/latest/installation.html)
-+ [folium](https://pypi.org/project/folium/)
+### OSGeoLive – Your GIS computer on a stick
 
-**For R:**   
-+ [sf](https://cran.r-project.org/web/packages/sf/index.html)
-+ [stars](https://cran.r-project.org/web/packages/stars/index.html)
-+ [terra](https://cran.r-project.org/web/packages/terra/index.html)
-+ [ows4r](https://cran.r-project.org/web/packages/ows4R/index.html)
-+ [tmap](https://cran.r-project.org/web/packages/tmap/index.html)
-
-### OSGeoLive – Your GIS-Computer on a stick
-
-An alternative to installing several programs and packages, you can download the completely pre-configuered system [OSGeoLive](https://live.osgeo.org/de/index.html) with all GIS-tools already installed, write it to a USB-stick and boot your laptop from that stick.
+An alternative to installing several programs and packages, you can download the completely pre-configuered system [OSGeoLive](https://live.osgeo.org/de/index.html) with all GIS tools already installed, write it to a USB stick and boot your laptop from that stick.
 
 Yet another option is to [run OSGeoLive in a virtual machine](https://live.osgeo.org/en/quickstart/virtualization_quickstart.html) using [VirtualBox](https://www.virtualbox.org/) on your laptop.
 
