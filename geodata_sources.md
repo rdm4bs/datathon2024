@@ -35,7 +35,7 @@
 + [GDI-DE](https://gdk.gdi-de.org/gdi-de/srv/eng/)
 + [Geoportal.de](https://www.geoportal.de/)
 + [Bundesamt für Kartographie und Geodäsie (BKG)](https://gdz.bkg.bund.de/index.php/default/open-data.html)
-+ DWD geoserver WFS link (https://cdc.dwd.de/geoserver/ows?version=1.0.0)
++ [DWD GeoServer WFS](https://cdc.dwd.de/geoserver/ows?)
 
 ## Background maps
 + [basemap.de WMS raster](https://basemap.de/en/web_raster/)
