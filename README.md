@@ -36,7 +36,7 @@ _Brought to you by [RDM4Braunschweig](https://rdm4bs.tu-braunschweig.de/) in [Lo
 
 ## Ideas
 
-[Idea - Pad](https://cryptpad.digitalcourage.de/code/#/2/code/edit/vRudLflAmhI8vWrHdeDMENWj/)
+[Data story ideas](./ideas.md)
 
 ## Technical preparations
 
