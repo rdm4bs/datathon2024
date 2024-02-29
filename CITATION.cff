@@ -1,0 +1,28 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Datathon "Unleash your inner cartographer!"
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Michael
+    family-names: Scholz
+    orcid: 'https://orcid.org/0000-0002-1052-6503'
+    affiliation: >-
+      Deutsches Zentrum für Luft- und Raumfahrt e.V. (DLR),
+      Braunschweig
+  - given-names: Vineeta
+    family-names: Sharma
+    affiliation: 'Johann Heinrich von Thünen-Institut, Braunschweig'
+  - given-names: Harald
+    family-names: von Waldow
+    affiliation: 'Johann Heinrich von Thünen-Institut, Braunschweig'
+    orcid: 'https://orcid.org/0000-0003-4800-2833'
+identifiers:
+  - type: url
+    value: 'https://github.com/rdm4bs/datathon2024'
+repository-code: 'https://github.com/rdm4bs/datathon2024'
+license: CC0-1.0
