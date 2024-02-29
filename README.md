@@ -31,7 +31,7 @@ _Brought to you by [RDM4Braunschweig](https://rdm4bs.tu-braunschweig.de/) in [Lo
 ## Material
 
 - [☝️🤓 Introduction to Geographic Information Systems (GIS)](/intro_gis.md)
-- [🚂 🍂 Geostory & ressources for introduction](/intro_geostory.md)
+- [🚂 🍂 Geostory & resources for introduction](/intro_geostory.md)
 - [🌐 Geodata sources](/geodata_sources.md)
 
 ## Ideas
@@ -40,15 +40,15 @@ _Brought to you by [RDM4Braunschweig](https://rdm4bs.tu-braunschweig.de/) in [Lo
 
 ## Technical preparations
 
-If you plan to use QGIS, jump to [`intro_qgis/`](/intro_qgis/README.md).
+If you plan to use QGIS, jump to [`intro_qgis/`](/intro_qgis).
 
-If you plan to use R, jump to [`intro_r/`](/intro_r/README.md).
+If you plan to use R, jump to [`intro_r/`](/intro_r).
 
-If you plan to use Python, jump to [`intro_python/`](/intro_python/README.md).
+If you plan to use Python, jump to [`intro_python/`](/intro_python).
 
 ### OSGeoLive – Your GIS computer on a stick
 
-An alternative to installing several programs and packages, you can download the completely pre-configuered system [OSGeoLive](https://live.osgeo.org/de/index.html) with all GIS tools already installed, write it to a USB stick and boot your laptop from that stick.
+An alternative to installing several programs and packages, you can download the completely pre-configured system [OSGeoLive](https://live.osgeo.org/de/index.html) with all GIS tools already installed, write it to a USB stick and boot your laptop from that stick.
 
 Yet another option is to [run OSGeoLive in a virtual machine](https://live.osgeo.org/en/quickstart/virtualization_quickstart.html) using [VirtualBox](https://www.virtualbox.org/) on your laptop.
 
