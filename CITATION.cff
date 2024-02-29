@@ -25,4 +25,5 @@ identifiers:
   - type: url
     value: 'https://github.com/rdm4bs/datathon2024'
 repository-code: 'https://github.com/rdm4bs/datathon2024'
+url: 'https://rdm4bs.tu-braunschweig.de/'
 license: CC0-1.0
