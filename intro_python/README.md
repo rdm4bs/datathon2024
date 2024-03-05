@@ -12,7 +12,7 @@ Create a new virtual environment for Python 3 and activate it
 
 ```bash
 python3 -m venv datathonenv
-. datathonenv/activate
+. datathonenv/bin/activate
 ```
 
 </td>
