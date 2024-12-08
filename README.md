@@ -54,4 +54,4 @@ Yet another option is to [run OSGeoLive in a virtual machine](https://live.osgeo
 
 ### Share intermediate data, upload results
 
-[DESY Sync & Share](https://syncandshare.desy.de/index.php/s/9PQ2N6BHkdEtZdr)
+~~DESY Sync & Share~~
